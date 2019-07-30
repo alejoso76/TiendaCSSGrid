@@ -8,9 +8,40 @@
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    
+
 </head>
 <body>
-
+    <header class="header">
+        <img src="img/logo.png" alt="Logotipo">
+    </header>
+    <div class="barra">
+        <nav class="nav">
+            <a href="index.html">Tienda</a>
+            <a href="nosotros.html">Nosotros</a>
+        </nav>
+    </div>
+    <main class="contenedor">
+        <h1>React JS</h1>
+        <div class="contenedor-informacion">
+            <img src="img/3.jpg" alt="Imagen Producto">
+            <div class="contenido">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut pulvinar libero, vel accumsan odio. Fusce suscipit urna a placerat sollicitudin. In semper, nisl vitae laoreet ultricies, massa quam faucibus tortor, a elementum nisl magna a erat. Donec bibendum pellentesque placerat.</p>
+                <form class="formulario-pedido">
+                    <select class="talla campo">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                    </select>
+                    <input type="number" min="1" class="cantidad campo">
+                    <input type="submit" class="boton" value="Agregar al Carrito">
+                </form>
+            </div>
+        </div>
+    </main>
 </body>
+<footer class="footer">
+    <p class="copyright">
+        Front-End Store - Todos los derechos reservados 2019.
+    </p>
+</footer>
 </html>
